@@ -14,3 +14,14 @@ header {
 #header {
   color: white;
 }
+
+/* Body Styles */
+
+.arrival {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+}
+
+.arrivalBlack {
+  background-color: black;
+  color: white;
+}
