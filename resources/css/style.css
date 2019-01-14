@@ -6,14 +6,16 @@ body {
 /* Header Styles */
 header {
   background-color: black;
-  display: inline-block;
+  display: inline-flex;
   justify-content: flex-start;
+
   width: 100%;
 
 }
 
 header img {
-
+  height: 16px;
+  width: auto;
 }
 
 #header {
@@ -26,6 +28,7 @@ header img {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   height: 500px;
   width: 100%;
+
   background-color: black;
   color: white;
   padding-left: ;
