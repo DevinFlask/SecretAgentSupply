@@ -8,6 +8,11 @@ header {
   background-color: black;
   display: inline-block;
   justify-content: flex-start;
+  width: 100%;
+
+}
+
+header img {
 
 }
 
@@ -24,4 +29,6 @@ header {
 .arrivalBlack {
   background-color: black;
   color: white;
+  padding-left: ;
+  padding-right: ;
 }
