@@ -1,0 +1,16 @@
+/* Universal Styles */
+body {
+  align-items: center;
+}
+
+/* Header Styles */
+header {
+  background-color: black;
+  display: inline-block;
+  justify-content: flex-start;
+
+}
+
+#header {
+  color: white;
+}
