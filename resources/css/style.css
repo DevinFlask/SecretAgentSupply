@@ -14,13 +14,14 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 100%;
-
+  position: fixed;
+  flex-wrap: nowrap;
 }
 
 header img {
   height: 2rem;
   width: auto;
-  padding-left:
+  padding-right: 10px;
 }
 
 #header {
@@ -49,6 +50,15 @@ header img {
 }
 
 #sport {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
+}
+
+.nav {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
