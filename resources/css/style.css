@@ -1,8 +1,5 @@
 /* Universal Styles */
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: black;
 }
 
@@ -15,13 +12,12 @@ header {
   padding-bottom: 30px;
   width: 100%;
   position: fixed;
-  flex-wrap: nowrap;
 }
 
 header img {
-  height: 2rem;
+  height: 1.5rem;
   width: auto;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 #header {
@@ -43,6 +39,9 @@ header img {
 
 .sportText {
   background-color: black;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #newA {
@@ -50,7 +49,7 @@ header img {
 }
 
 #sport {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -63,4 +62,35 @@ header img {
   align-items: flex-start;
   width: 100%;
   height: auto;
+}
+
+.mainContent {
+  background-color: white;
+  width: 100%;
+}
+
+.apparelItems {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+.subImages {
+
+}
+
+#subContent {
+
+}
+
+.locationHours {
+
+}
+
+#locationSub {
+
+}
+
+.footer {
+
 }
