@@ -1,6 +1,9 @@
 /* Universal Styles */
 body {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: black;
 }
 
 /* Header Styles */
@@ -15,7 +18,7 @@ header {
 }
 
 header img {
-  height: 20px;
+  height: 2rem;
   width: auto;
   padding-left:
 }
@@ -34,10 +37,11 @@ header img {
   background-position: center;
   height: 500px;
   width: 100%;
-  background-color: black;
   color: white;
-  padding-left: ;
-  padding-right: ;
+}
+
+.sportText {
+  background-color: black;
 }
 
 #newA {
@@ -45,6 +49,6 @@ header img {
 }
 
 #sport {
-  font-size: 2.5rem;
+  font-size: 5rem;
   font-weight: bold;
 }
