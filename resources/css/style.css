@@ -36,6 +36,8 @@ header img {
   height: 500px;
   width: 100%;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .sportText {
@@ -43,15 +45,16 @@ header img {
   flex-flow: row wrap;
   background-color: black;
   width: 500px;
-  height: 300px;
+  height: 200px;
   padding-top: 1.5rem;
-  margin-left: 250px;
+  padding-left: 20px;
+  margin-left: 200px;
   padding-bottom: 1.5rem;
   justify-content: flex-start;
-  padding-left: 10px;
 }
 
 #newA {
+  margin-top: 30px;
   font-size: 1rem;
   height: 2rem;
 }
@@ -59,7 +62,7 @@ header img {
 #sport {
   font-size: 2.5rem;
   font-weight: bold;
-  height: 2.6rem;
+  height: 2.55rem;
 }
 
 .nav {
