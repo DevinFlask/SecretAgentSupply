@@ -43,6 +43,7 @@ header img {
   flex-flow: row wrap;
   background-color: black;
   width: 500px;
+  height: 300px;
   padding-top: 1.5rem;
   margin-left: 250px;
   padding-bottom: 1.5rem;
