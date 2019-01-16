@@ -64,8 +64,8 @@ header img {
   align-items: center;
   width: 100%;
   height: 2rem;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .mainContent {
@@ -81,6 +81,7 @@ header img {
 
 .pen, .watch, .thermal{
   width: 300px;
+  height: 340px;
   display: flex;
   flex-flow: row wrap;
 
@@ -104,15 +105,26 @@ header img {
   align-items: center;
 }
 
+.location, .hours {
+  display: flex;
+  flex-flow: row wrap;
+  width: 300px;
+}
+
 .locationHours {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
 #locationSub {
   background-color: black;
   color: white;
+  height: 2rem;
+  width: 100%;
+  padding-left: 5px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer {
