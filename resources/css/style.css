@@ -83,9 +83,11 @@ header img {
 
 .apparelItems {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .pen, .watch, .thermal{
@@ -105,7 +107,7 @@ header img {
 #subContent {
   background-color: black;
   color: white;
-  width: 100%;
+  width: 300px;
   height: 2rem;
   display: flex;
   justify-content: center;
