@@ -110,7 +110,7 @@ header img {
 #subContent {
   background-color: black;
   color: white;
-  width: 300px;
+  width: 100%;
   height: 2rem;
   display: flex;
   justify-content: center;
@@ -120,13 +120,13 @@ header img {
 .location, .hours {
   display: flex;
   flex-flow: row wrap;
-  width: 300px;
+  width: 304px;
 }
 
 .locationHours {
   display: flex;
   justify-content: space-around;
-  padding-left: 200px;
+  padding-left: 150px;
   padding-right: 350px;
   padding-bottom: 50px;
 
