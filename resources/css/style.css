@@ -2,7 +2,7 @@
 body {
   background-color: black;
   justify-content: center;
-  overflow-x: hidden;
+
 }
 
 /* Header Styles */
@@ -13,7 +13,7 @@ header {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 100%;
+  width: auto;
 }
 
 header img {
@@ -36,7 +36,7 @@ header img {
   background-size: cover;
   background-position: center;
   height: 500px;
-  width: 100%;
+  width: auto;
   color: white;
   display: flex;
   align-items: center;
@@ -155,6 +155,6 @@ header img {
   background-color: black;
   color: white;
   height: 200px;
-  width: 100%;
+  width: auto;
   padding-left: 200px;
 }
