@@ -74,7 +74,7 @@ header img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: auto;
   height: 2rem;
   padding-left: 200px;
   padding-right: 200px;
