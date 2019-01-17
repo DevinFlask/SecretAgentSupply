@@ -2,6 +2,7 @@
 body {
   background-color: black;
   justify-content: center;
+  font-family: Helvetica;
 }
 
 /* Header Styles */
@@ -75,7 +76,7 @@ header img {
   justify-content: space-around;
   align-items: center;
   width: auto;
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .mainContent {
