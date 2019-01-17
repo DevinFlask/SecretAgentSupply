@@ -18,12 +18,13 @@ header {
 header img {
   height: 1.5rem;
   width: auto;
-  padding-right: 100px;
+  padding-left: 200px;
 }
 
 #header {
   color: white;
   font-size: 1rem;
+  padding-left: 10px;
 }
 
 /* Body Styles */
