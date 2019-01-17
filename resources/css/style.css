@@ -126,6 +126,8 @@ header img {
 .locationHours {
   display: flex;
   justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
 
 }
 
