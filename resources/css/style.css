@@ -157,6 +157,6 @@ header img {
   background-color: black;
   color: white;
   height: 200px;
-  width: 100%;
+  width: auto;
   padding-left: 200px;
 }
