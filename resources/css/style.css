@@ -93,7 +93,7 @@ header img {
 }
 
 .pen, .watch, .thermal{
-  width: 300px;
+  width: 250px;
   height: 340px;
   display: flex;
   flex-flow: row wrap;
@@ -124,11 +124,14 @@ header img {
 
 .locationHours {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding-left: 200px;
   padding-right: 350px;
   padding-bottom: 50px;
+}
 
+.location {
+  margin-right: 100px;
 }
 
 #locationSub {
@@ -154,6 +157,6 @@ header img {
   background-color: black;
   color: white;
   height: 200px;
-  width: auto;
+  width: 100%;
   padding-left: 200px;
 }
