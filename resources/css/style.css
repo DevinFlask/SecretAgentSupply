@@ -2,7 +2,7 @@
 body {
   background-color: black;
   justify-content: center;
-  width: 1028px;
+  overflow-x: hidden;
 }
 
 /* Header Styles */
